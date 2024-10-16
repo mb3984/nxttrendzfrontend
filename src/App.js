@@ -20,7 +20,7 @@ const App = () => {
 
   // Log cart items whenever they change
   useEffect(() => {
-    console.log("Cart Items:", cartItems); // Verify cart items
+    console.log("Cart Items:", cartItems); // Verify cart item
   }, [cartItems]);
 
   return (

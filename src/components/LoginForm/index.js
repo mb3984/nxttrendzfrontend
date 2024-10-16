@@ -23,6 +23,7 @@ class LoginForm extends Component {
   };
 
   onSubmitSuccess = () => {
+    alert("Your Login was successful!");
     localStorage.setItem("loggedIn", true); // Set loggedIn flag
     // Trigger the login function passed from App.js
     this.props.history.push("/"); // Redirect to home after successful login
@@ -58,7 +59,7 @@ class LoginForm extends Component {
         this.onSubmitFailure(errorMsg); // Handle failure
       }
     } catch (error) {
-      this.onSubmitFailure("Something went wrong. Please try again later.");
+      this.onSubmitFailure("Something went Wrong. Please try again later.");
     }
   };
 
