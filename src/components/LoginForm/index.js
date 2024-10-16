@@ -23,7 +23,7 @@ class LoginForm extends Component {
   };
 
   onSubmitSuccess = () => {
-    alert("Your Login was successful!");
+    alert("You Login  Successfully!");
     localStorage.setItem("loggedIn", true); // Set loggedIn flag
     // Trigger the login function passed from App.js
     this.props.history.push("/"); // Redirect to home after successful login
