@@ -1,0 +1,107 @@
+/* src/components/index.css */
+
+/* Cart Container */
+.cart-container {
+  max-width: 800px; /* Set a max width for the cart */
+  margin: 20px auto; /* Center the cart */
+  padding: 20px;
+  background-color: #fff; /* White background for better visibility */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Empty Cart */
+.empty-cart {
+  text-align: center;
+  margin: 50px 0; /* Margin for spacing */
+}
+
+.empty-cart p {
+  font-size: 18px; /* Larger font for emphasis */
+}
+
+.shop-now-button {
+  background-color: #3498db; /* Primary button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+}
+
+/* Cart Items */
+.cart-items {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+/* Individual Cart Item */
+.cart-item {
+  display: flex; /* Flex layout for items */
+  align-items: center; /* Center vertically */
+  background-color: #f9f9f9; /* Light background for items */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding for spacing */
+  margin-bottom: 10px; /* Spacing between items */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.cart-item:hover {
+  background-color: #f1f1f1; /* Darken on hover */
+}
+
+/* Cart Item Image */
+.cart-item-image {
+  width: 80px; /* Set a fixed width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Spacing to the right */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Cart Item Details */
+.cart-item-details {
+  display: flex;
+  flex-direction: column; /* Vertical alignment */
+}
+
+.cart-item-title {
+  font-size: 18px; /* Title font size */
+  font-weight: bold; /* Bold title */
+  margin-bottom: 5px; /* Space below title */
+}
+
+.cart-item-price {
+  font-size: 16px; /* Price font size */
+  color: #e74c3c; /* Price color */
+  font-weight: bold; /* Bold price */
+}
+
+/* Remove Button */
+.remove-button {
+  background-color: red; /* Red color for remove button */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px 10px; /* Padding for button */
+  cursor: pointer;
+  margin-left: auto; /* Align to the right */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.remove-button:hover {
+  background-color: darkred; /* Darker shade on hover */
+}
+
+/* Cart Total */
+.cart-total {
+  margin-top: 20px; /* Spacing above total */
+  font-weight: bold; /* Bold total */
+  font-size: 20px; /* Increase font size for emphasis */
+  text-align: right; /* Align text to the right */
+}
