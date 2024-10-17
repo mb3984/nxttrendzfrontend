@@ -463,7 +463,7 @@ const products = [
 const Products = ({ addToCart }) => {
   const handleAddToCart = (product) => {
     addToCart(product);
-    alert(`${product.title} added to cart!`);
+    alert(`Your Product Succesfully added to cart!`);
   };
 
   return (
